@@ -1,0 +1,346 @@
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-block {
+    display: block;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
+/* End Box */
+/* Start Paddin And Margin */
+.p-5 {
+    padding: 5px;
+}
+
+.p-7 {
+    padding: 7px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.m-30 {
+    margin: 30px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt--10 {
+    margin-top: -10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+/* End Paddin And Margin */
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-red-alt {
+    background-color: red;
+}
+
+.bg-alt-blue {
+    background-color: var(--blue-alt-color);
+}
+
+.c-black {
+    color: black;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-grey {
+    color: var(--grey-color);
+}
+
+.c-alt-blue {
+    color: var(--blue-alt-color);
+}
+
+/* Start Color */
+/* Start position */
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* End position */
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-normal {
+    font-weight: normal;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* End Font */
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-half {
+    border-radius: 50%;
+}
+
+.b-none {
+    border: none;
+}
+
+.border-eee {
+    border: 1px solid #EEE;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+/* End Border */
+/* Start Component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Component */
+/* Start Grid */
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* end Grid */
